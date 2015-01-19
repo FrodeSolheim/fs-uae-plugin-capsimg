@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+rm -Rf capsimg
+git submodule update --init capsimg
+
+cd capsimg
+./bootstrap
+cd ..

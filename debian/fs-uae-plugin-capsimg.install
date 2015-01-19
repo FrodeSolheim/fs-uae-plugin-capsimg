@@ -1,0 +1,2 @@
+plugin.ini usr/lib/fs-uae/plugins/capsimg
+capsimg/capsimg.so usr/lib/fs-uae/plugins/capsimg/5.1fs1

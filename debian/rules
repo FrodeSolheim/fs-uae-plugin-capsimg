@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+%:
+	dh $@ 
+
+override_dh_auto_configure:
+	cd capsimg && ./configure
+
+override_dh_auto_build:
+	cd capsimg && make
+
+override_dh_auto_install:

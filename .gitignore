@@ -1,0 +1,6 @@
+/debian/files
+/debian/fs-uae-plugin-capsimg/
+/debian/fs-uae-plugin-capsimg.debhelper.log
+/debian/fs-uae-plugin-capsimg.substvars
+/fs-uae-plugin-capsimg-*
+/fs-uae-plugin-capsimg_*
