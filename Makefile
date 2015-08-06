@@ -20,6 +20,8 @@ distdir:
 	mkdir $(name)-$(version)
 	cp Makefile $(name)-$(version)
 	cp plugin.ini $(name)-$(version)
+	cp README.md $(name)-$(version)
+	cp VERSION $(name)-$(version)
 
 	mkdir $(name)-$(version)/debian
 	cp debian/fs-uae-plugin-capsimg.install $(name)-$(version)/debian
@@ -32,7 +34,7 @@ distdir:
 	cp debian/rules $(name)-$(version)/debian
 
 	cp -a capsimg $(name)-$(version)
-	rm $(name)-$(version)/capsimg/.gitignore
+	rm -f $(name)-$(version)/capsimg/.gitignore
 	rm -Rf $(name)-$(version)/capsimg/.git
 
 dist: distdir
